@@ -1,3 +1,5 @@
+//UVa id 12356
+
 #include <iostream>
 #include <cstdlib>
 #include <array>
