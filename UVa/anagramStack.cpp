@@ -13,15 +13,17 @@ void step(string in, string out, stack<char> letters, string value) {
     if (!letters.empty() && letters.top() == out.front()) {
         letters.pop();
         out.erase(0, 1);
-        if (out.empty()) {cout << value + "o" << endl;}
+        if (out.empty()) {cout << value + "o\n";}
         else {step(in, out, letters, value + "o ");}
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     string in, out, value;
     stack<char> letters;
-
 
     while (getline(cin, in)) {
         while (in.empty()) {getline(cin, in);} 
@@ -31,11 +33,12 @@ int main() {
         while (!letters.empty()) {letters.pop();}
         value.clear();
 
-        printf("[\n");
+        cout << "[\n";
 
         step(in, out, letters, value);
 
-        printf("]\n");
+        cout << "]\n";
+        flush(cout);
     }
 
     return 0;
