@@ -33,7 +33,7 @@ int main() {
             std::cout << tempIter->first << " " << fixed << setprecision(4) << tempIter->second*100.0/totalTrees << "\n";
         }
 
-        cout << "\n";
+        if (numCases) {cout << "\n";}
     }
     
 
