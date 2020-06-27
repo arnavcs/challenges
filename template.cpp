@@ -6,8 +6,15 @@ using namespace std;
 #define DEBUG(x) cout << "> " << #x << ": " << x << endl;
 
 int main() {
-    // ios_base::sync_with_stdio(false);
-    // cin.tie(NULL);
+    // freopen("in.txt", "r", stdin);
+    // freopen("out.txt", "w", stdout);
+    
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    // write code below
+
+    
 
     return 0;
 }
