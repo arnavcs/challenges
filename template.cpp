@@ -3,7 +3,9 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
 #define DEBUG(x) cout << "> " << #x << ": " << x << endl;
+#define fall(i, a, b) for (int i = a; i <= b; ++i)
 
 int main() {
     // freopen("in.txt", "r", stdin);
@@ -14,7 +16,7 @@ int main() {
 
     // write code below
 
-    
+
 
     return 0;
 }
