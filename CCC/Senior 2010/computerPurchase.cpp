@@ -1,5 +1,5 @@
 // Arnav Kumar
-// Problem Name 
+// Senior CCC 2010 Computer Purchase
 
 #include <bits/stdc++.h>
 // #include "../debug.h"
@@ -18,9 +18,9 @@ using namespace std;
 #define flip(n, i) (n ^= (1 << i))
 
 
-
-
-// declare global variables
+int N, R, S, D;
+string name;
+priority_queue<pair<int, string>, vector<pair<int, string>>, greater<pair<int, string>>> computers;
 
 int main() {
     // freopen("in.txt", "r", stdin);
@@ -29,7 +29,17 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    // write code here
+    cin >> N;
+    while (N--) {
+        cin >> name >> R >> S >> D;
+        computers.push(make_pair(-1 * (2*R + 3*S + D), name));
+    }
+
+    N = min(2, (int)computers.size());
+    for (int i = 0; i < N; i++) {
+        cout << computers.top().second << '\n';
+        computers.pop();
+    }
 
     return 0;
 }

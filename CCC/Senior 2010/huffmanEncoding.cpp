@@ -1,5 +1,5 @@
 // Arnav Kumar
-// Problem Name 
+// Huffman Encoding CCC 2010 senior
 
 #include <bits/stdc++.h>
 // #include "../debug.h"
@@ -18,18 +18,21 @@ using namespace std;
 #define flip(n, i) (n ^= (1 << i))
 
 
-
-
-// declare global variables
+int N, tint;
+char letters[1 << 10], tchar1, tchar2;
 
 int main() {
-    // freopen("in.txt", "r", stdin);
-    // freopen("out.txt", "w", stdout);
+    freopen("in.txt", "r", stdin);
+    freopen("out.txt", "w", stdout);
     
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    // write code here
+    cin >> N;
+    while (N--) {
+        cin >> tchar1;
+
+    }
 
     return 0;
 }
