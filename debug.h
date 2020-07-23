@@ -31,6 +31,24 @@ std::ostream& operator<<(std::ostream& os, const std::vector<std::vector<T>>& v)
     return os;
 }
 
+// print priority_queue
+template <typename T>
+std::ostream& operator<<(std::ostream& os, std::priority_queue<T> q) {
+    os << "[";
+    bool first = true;
+    while (!q.empty()) {
+        if (!first) {
+            os << ", ";
+        } else {
+            first = false;
+        }
+        os << q.top();
+        q.pop();
+    }
+    os << "]";
+    return os;
+}
+
 // print set
 template <typename T> 
 std::ostream& operator<<(std::ostream& os, const std::set<T>& v) { 
