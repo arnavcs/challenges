@@ -1,4 +1,4 @@
-module P2 where
+module P002 where
 
 sumEvenFibonacciNumbersLessThan :: Int -> Int
 sumEvenFibonacciNumbersLessThan = sum . filter (even) . fibonacciLessThan 

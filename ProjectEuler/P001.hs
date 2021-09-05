@@ -1,4 +1,4 @@
-module P1 where
+module P001 where
 
 sumOfMultiplesLessThan :: [Int] -> Int -> Int
 sumOfMultiplesLessThan xs n = sum [k | k <- [1 .. (n-1)], isMultiple k xs]

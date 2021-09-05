@@ -1,4 +1,4 @@
-module P6 where
+module P006 where
 
 sumSquareDifference :: Int -> Int
 sumSquareDifference n = (subtract) <$> sumOfSquare <*> squareOfSum $ [1 .. n]

@@ -1,4 +1,4 @@
-module P4 where
+module P004 where
 
 largestPalindromeProduct :: Int -> Int
 largestPalindromeProduct = maximum . filter isPalindrome . allProducts

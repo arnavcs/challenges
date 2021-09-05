@@ -1,7 +1,7 @@
-module P12 where
+module P012 where
 
 import Data.List
-import P3
+import P003
 
 firstTriNumOver :: Int -> Int
 firstTriNumOver n = sum [1..index]

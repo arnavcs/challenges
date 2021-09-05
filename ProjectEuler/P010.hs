@@ -1,6 +1,6 @@
-module P10 where
+module P010 where
 
-import P7
+import P007
 
 sumOfPrimesBelow :: Int -> Int
 sumOfPrimesBelow n = sum . takeWhile (< n) $ allPrimes

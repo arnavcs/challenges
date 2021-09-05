@@ -1,4 +1,4 @@
-module P9 where
+module P009 where
 
 prodPythagSummingTo :: Int -> Int
 prodPythagSummingTo n = let [(a, b, c)] = pythagSummingTo n in a * b * c

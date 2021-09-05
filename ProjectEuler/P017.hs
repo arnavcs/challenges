@@ -1,4 +1,4 @@
-module P17 where
+module P017 where
 
 numOfCharsTill :: Int -> Int
 numOfCharsTill n = sum . map layerThree $ [1..n]

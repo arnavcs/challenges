@@ -1,4 +1,4 @@
-module P5 where
+module P005 where
 
 smallestMultipleOfFirst :: Int -> Int
 smallestMultipleOfFirst n = smallestMultiple [1 .. n]

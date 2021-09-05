@@ -1,4 +1,4 @@
-module P7 where
+module P007 where
 
 nthPrime :: Int -> Int
 nthPrime n = allPrimes !! (n - 1)

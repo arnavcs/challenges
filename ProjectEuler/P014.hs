@@ -1,4 +1,4 @@
-module P14 where
+module P014 where
 
 import Data.List
 import Data.Ord

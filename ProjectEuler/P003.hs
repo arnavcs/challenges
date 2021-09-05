@@ -1,4 +1,4 @@
-module P3 where
+module P003 where
 
 largestPrimeFactor :: Int -> Int
 largestPrimeFactor = maximum . primeFactors

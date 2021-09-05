@@ -1,4 +1,4 @@
-module P16 where
+module P016 where
 
 import Data.Char
 
